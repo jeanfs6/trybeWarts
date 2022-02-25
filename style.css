@@ -22,3 +22,18 @@
  display: flex;
  width:675px;
 }
+#evaluation-form{
+ flex-direction: column;
+ flex-wrap: wrap;
+}
+#trybewarts-forms-logo{
+ height: 500px;
+}
+.fullName{
+ display: flex;
+ flex-flow: row wrap;
+}
+.emailAndHouse {
+  display: flex;
+ flex-flow: row wrap;
+}

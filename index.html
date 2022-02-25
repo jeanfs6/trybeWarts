@@ -9,7 +9,7 @@
 </head>
 <body>
  <header class="header">
- <img src="images/trybewarts-header-logo.svg" alt="" class="trybewarts-header-logo">
+ <img src="images/trybewarts-header-logo.svg" alt="trybewarts-logo" class="trybewarts-header-logo">
   <h1 id="trybewarts-header-title">Trybewarts</h1>
  <form action="" class="trybewarts-login">
  <input type="email" name="email" id="email" placeholder="Email">
@@ -19,7 +19,21 @@
  </header>
  <main class="main-container">
   <form action="" class="form-container" id="evaluation-form">
+   <div class="fullName">
+    <input id="input-name" type="text" placeholder="Nome">
+    <input id="input-lastname" type="text" placeholder="Sobrenome">
+    </div>
+    <div class="emailAndHouse">
+    <input type="email" id="input-email" placeholder="Email">
+    <select id="house">
+     <option value="Gitnória"  id="gitnoria-house" >Gitnória</option>
+     <option value="Reactpuff" id="reactpuff-house" >Reactpuff</option>
+     <option value="Corvinode" id="corvinode-house">Corvinode</option>
+     <option value="Pytherina" id="pytherina-house">Pytherina</option>
+    </select>
+    </div>
   </form>
+  <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo">
  </main>
 </body>
 <script src="script.js"></script>
