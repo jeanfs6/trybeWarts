@@ -9,9 +9,16 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-
 }
 
 .trybewarts-login {
   display: flex;
+}
+
+.main-container {
+  display: flex;
+}
+.form-container{
+ display: flex;
+ width:675px;
 }
