@@ -1,7 +1,7 @@
-*{
- margin: 0;
- padding:0;
- box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .header {
@@ -18,22 +18,42 @@
 .main-container {
   display: flex;
 }
-.form-container{
- display: flex;
- width:675px;
+
+.form-container {
+  display: flex;
+  width: 675px;
 }
-#evaluation-form{
- flex-direction: column;
- flex-wrap: wrap;
+
+#evaluation-form {
+  flex-flow: column wrap;
 }
-#trybewarts-forms-logo{
- height: 500px;
+
+#trybewarts-forms-logo {
+  height: 500px;
 }
-.fullName{
- display: flex;
- flex-flow: row wrap;
+
+.fullName {
+  display: flex;
+  flex-flow: row wrap;
 }
+
 .emailAndHouse {
   display: flex;
- flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+#radioInputs {
+  display: flex;
+  flex-direction: column;
+}
+
+#avaliationTrybewarts {
+  display: flex;
+  flex-direction: row;
+}
+
+.agreement-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
