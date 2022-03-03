@@ -1,5 +1,7 @@
 // Seletores
 const buttonLogin = document.querySelector('.buttonLogin');
+const checkBoxAgreement = document.querySelector('#agreement');
+const buttonSubmit = document.querySelector('#submit-btn');
 
 function checkUserInput(email, senha) {
   if (email === 'tryber@teste.com' && senha === '123456') {
@@ -16,5 +18,14 @@ function checkLogin(event) {
   checkUserInput(email, senha);
 }
 
+function checkButton() {
+  if (checkBoxAgreement.checked === true) {
+    buttonSubmit.disabled = false;
+  } else {
+    buttonSubmit.disabled = true;
+  }
+}
+
 // Escutadores de Eventos
 buttonLogin.addEventListener('click', checkLogin);
+checkBoxAgreement.addEventListener('change', checkButton);
