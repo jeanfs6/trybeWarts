@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projeto Trybewarts</title>
+    <title>Projeto TrybeWarts</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -61,26 +61,52 @@
         >
         <fieldset id="checkbox-inputs">
           <label for="hofs"
-            ><input type="checkbox" value="HoFs" id="hofs" />HoFs</label
+            ><input
+              type="checkbox"
+              value="HoFs"
+              id="hofs"
+              class="subject"
+            />HoFs</label
           >
           <label for="jest"
-            ><input type="checkbox" value="Jest" id="jest" />Jest</label
+            ><input
+              type="checkbox"
+              value="Jest"
+              id="jest"
+              class="subject"
+            />Jest</label
           >
           <label for="promises"
             ><input
               type="checkbox"
               value="Promises"
               id="promises"
+              class="subject"
             />Promises</label
           >
           <label for="react">
-            <input type="checkbox" value="React" id="react" />React</label
+            <input
+              type="checkbox"
+              value="React"
+              id="react"
+              class="subject"
+            />React</label
           >
-          <label for="sql">
-            <input type="checkbox" value="SQL" id="sql" />SQL</label
+          <label for="sql" class="materias">
+            <input
+              type="checkbox"
+              value="SQL"
+              id="sql"
+              class="subject"
+            />SQL</label
           >
           <label for="python"
-            ><input type="checkbox" value="Python" id="python" />Python</label
+            ><input
+              type="checkbox"
+              value="Python"
+              id="python"
+              class="subject"
+            />Python</label
           >
         </fieldset>
         <fieldset id="avaliationTrybewarts">
@@ -88,34 +114,34 @@
             >Como você avalia a Trybewarts?</label
           >
           <label for="1"
-            ><input type="radio" name="rate" id="1" value="1" /> 1</label
+            ><input type="radio" name="rate" id="1" value="1" />1</label
           >
           <label for="2"
-            ><input type="radio" name="rate" id="2" value="2" /> 2</label
+            ><input type="radio" name="rate" id="2" value="2" />2</label
           >
           <label for="3"
-            ><input type="radio" name="rate" id="3" value="3" /> 3</label
+            ><input type="radio" name="rate" id="3" value="3" />3</label
           >
           <label for="4"
-            ><input type="radio" name="rate" id="4" value="4" /> 4</label
+            ><input type="radio" name="rate" id="4" value="4" />4</label
           >
           <label for="5"
-            ><input type="radio" name="rate" id="5" value="5" /> 5</label
+            ><input type="radio" name="rate" id="5" value="5" />5</label
           >
           <label for="6"
-            ><input type="radio" name="rate" id="6" value="6" /> 6</label
+            ><input type="radio" name="rate" id="6" value="6" />6</label
           >
           <label for="7"
-            ><input type="radio" name="rate" id="7" value="7" /> 7</label
+            ><input type="radio" name="rate" id="7" value="7" />7</label
           >
           <label for="8"
-            ><input type="radio" name="rate" id="8" value="8" /> 8</label
+            ><input type="radio" name="rate" id="8" value="8" />8</label
           >
           <label for="9"
-            ><input type="radio" name="rate" id="9" value="9" /> 9</label
+            ><input type="radio" name="rate" id="9" value="9" />9</label
           >
           <label for="10"
-            ><input type="radio" name="rate" id="10" value="10" /> 10</label
+            ><input type="radio" name="rate" id="10" value="10" />10</label
           >
         </fieldset>
         <label for="textarea" class="textarea">Deixe seu comentário:</label>
@@ -127,6 +153,7 @@
           cols="30"
           rows="10"
         ></textarea>
+        <p id="counter">Caracteres restantes: 500</p>
         <div class="'agreement-container">
           <label for="agreement" id="label-infos"
             >Você concorda com o uso das informações acima?</label
