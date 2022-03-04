@@ -25,7 +25,6 @@ function checkButton() {
     buttonSubmit.disabled = true;
   }
 }
-checkButton();
 // Escutadores de Eventos
 buttonLogin.addEventListener("click", checkLogin);
 checkBoxAgreement.addEventListener("change", checkButton);
