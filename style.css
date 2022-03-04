@@ -16,6 +16,7 @@
 }
 
 .main-container {
+  margin-left: 10px;
   display: flex;
 }
 
