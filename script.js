@@ -1,4 +1,5 @@
 // Seletores
+
 const buttonLogin = document.querySelector('.buttonLogin');
 const checkBoxAgreement = document.querySelector('#agreement');
 const buttonSubmit = document.querySelector('#submit-btn');
